@@ -1,0 +1,249 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_2"]["Active"] = true;
+LMG2L["Frame_2"]["BorderSizePixel"] = 0;
+LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(131, 131, 131);
+LMG2L["Frame_2"]["Size"] = UDim2.new(0, 520, 0, 368);
+LMG2L["Frame_2"]["Position"] = UDim2.new(0, 604, 0, 112);
+LMG2L["Frame_2"]["Draggable"] = true;
+
+LMG2L["Clear_3"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["Clear_3"]["BorderSizePixel"] = 0;
+LMG2L["Clear_3"]["TextSize"] = 24;
+LMG2L["Clear_3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Clear_3"]["BackgroundColor3"] = Color3.fromRGB(127, 127, 127);
+LMG2L["Clear_3"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["Clear_3"]["Size"] = UDim2.new(0, 104, 0, 84);
+LMG2L["Clear_3"]["Text"] = [[Clear]];
+LMG2L["Clear_3"]["Name"] = [[Clear]];
+LMG2L["Clear_3"]["Position"] = UDim2.new(0, 264, 0, 158);
+
+
+LMG2L["UICorner_4"] = Instance.new("UICorner", LMG2L["Clear_3"]);
+
+
+
+LMG2L["LocalScript_5"] = Instance.new("LocalScript", LMG2L["Clear_3"]);
+
+
+
+LMG2L["Execute_6"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["Execute_6"]["BorderSizePixel"] = 0;
+LMG2L["Execute_6"]["TextSize"] = 24;
+LMG2L["Execute_6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Execute_6"]["BackgroundColor3"] = Color3.fromRGB(127, 127, 127);
+LMG2L["Execute_6"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["Execute_6"]["Size"] = UDim2.new(0, 104, 0, 84);
+LMG2L["Execute_6"]["Text"] = [[Execute]];
+LMG2L["Execute_6"]["Name"] = [[Execute]];
+LMG2L["Execute_6"]["Position"] = UDim2.new(0, 266, 0, 52);
+
+
+LMG2L["UICorner_7"] = Instance.new("UICorner", LMG2L["Execute_6"]);
+
+
+
+LMG2L["LocalScript_8"] = Instance.new("LocalScript", LMG2L["Execute_6"]);
+
+
+
+LMG2L["Text_9"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["Text_9"]["BorderSizePixel"] = 0;
+LMG2L["Text_9"]["TextSize"] = 18;
+LMG2L["Text_9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 26);
+LMG2L["Text_9"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["Text_9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Text_9"]["BackgroundTransparency"] = 1;
+LMG2L["Text_9"]["Size"] = UDim2.new(0, 134, 0, 26);
+LMG2L["Text_9"]["Text"] = [[Project Hack🧑‍💻]];
+LMG2L["Text_9"]["Name"] = [[Text]];
+
+
+LMG2L["UICorner_a"] = Instance.new("UICorner", LMG2L["Text_9"]);
+
+
+
+LMG2L["ScrollingFrame_b"] = Instance.new("ScrollingFrame", LMG2L["Frame_2"]);
+LMG2L["ScrollingFrame_b"]["BorderSizePixel"] = 0;
+LMG2L["ScrollingFrame_b"]["BackgroundColor3"] = Color3.fromRGB(130, 130, 130);
+LMG2L["ScrollingFrame_b"]["Size"] = UDim2.new(0, 150, 0, 368);
+LMG2L["ScrollingFrame_b"]["Position"] = UDim2.new(0, 370, 0, 0);
+
+
+LMG2L["UICorner_c"] = Instance.new("UICorner", LMG2L["ScrollingFrame_b"]);
+
+
+
+LMG2L["UICorner_d"] = Instance.new("UICorner", LMG2L["Frame_2"]);
+
+
+
+
+LMG2L["TextBox_10"] = Instance.new("TextBox", LMG2L["Frame_2"]);
+LMG2L["TextBox_10"]["BorderSizePixel"] = 0;
+LMG2L["TextBox_10"]["BackgroundColor3"] = Color3.fromRGB(131, 131, 131);
+LMG2L["TextBox_10"]["Size"] = UDim2.new(0, 266, 0, 334);
+LMG2L["TextBox_10"]["Position"] = UDim2.new(0, 0, 0, 28);
+
+
+LMG2L["UICorner_11"] = Instance.new("UICorner", LMG2L["TextBox_10"]);
+
+
+
+LMG2L["Load_12"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["Load_12"]["BorderSizePixel"] = 0;
+LMG2L["Load_12"]["TextSize"] = 24;
+LMG2L["Load_12"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Load_12"]["BackgroundColor3"] = Color3.fromRGB(127, 127, 127);
+LMG2L["Load_12"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["Load_12"]["Size"] = UDim2.new(0, 104, 0, 84);
+LMG2L["Load_12"]["Text"] = [[Load]];
+LMG2L["Load_12"]["Name"] = [[Load]];
+LMG2L["Load_12"]["Position"] = UDim2.new(0, 264, 0, 268);
+
+
+LMG2L["UICorner_13"] = Instance.new("UICorner", LMG2L["Load_12"]);
+
+
+
+LMG2L["LocalScript_14"] = Instance.new("LocalScript", LMG2L["Load_12"]);
+
+
+
+local function C_5()
+	local script = LMG2L["LocalScript_5"];
+	local Clear = script.Parent	
+	local box = Clear.Parent:WaitForChild("TextBox_10") -- Corrigido: nome correto do TextBox
+	
+	Clear.MouseButton1Click:Connect(function()	
+		box.Text = ""	
+	end)
+end;
+task.spawn(C_5);
+
+local function C_8()
+	local script = LMG2L["LocalScript_8"];
+	local rs = game:GetService("ReplicatedStorage")	
+	local button = script.Parent	
+	local box = script.Parent.Parent.TextBox_10 -- Corrigido: nome correto do TextBox
+	
+	button.MouseButton1Click:Connect(function()	
+		local code = box.Text	
+	
+		if code == "" or code == "-- Ready to execute" then	
+			return	
+		end	
+	
+		local backdoor = rs:FindFirstChild("Fly")	
+	
+		local success = false	
+		if backdoor and backdoor:IsA("RemoteEvent") then	
+			success = pcall(function()	
+				backdoor:FireServer(code)	
+			end)	
+		end	
+	
+		if not success then	
+			for _, v in pairs(rs:GetChildren()) do	
+				if v:IsA("RemoteEvent") then	
+					task.spawn(function()	
+						v:FireServer(code)	
+					end)
+				end	
+			end	
+		end	
+	end)
+end;
+task.spawn(C_8);
+local function C_14()
+	local script = LMG2L["LocalScript_14"];
+	script.Parent.MouseButton1Click:Connect(function()	
+		local LOGO = Instance.new("ScreenGui")	
+		local Face = Instance.new("ImageButton")	
+		local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")	
+		local UICorner = Instance.new("UICorner")	
+		local InfoBox = Instance.new("TextLabel")	
+		local InfoBoxBorder = Instance.new("Frame")	
+	
+		LOGO.Name = "LOGO"	
+		LOGO.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")	
+		LOGO.ZIndexBehavior = Enum.ZIndexBehavior.Sibling	
+		LOGO.ResetOnSpawn = false  
+	
+		Face.Name = "Face"	
+		Face.Parent = LOGO	
+		Face.Active = true	
+		Face.BackgroundColor3 = Color3.fromRGB(255, 255, 255)	
+		Face.BackgroundTransparency = 1.000	
+		Face.BorderSizePixel = 0	
+		Face.Position = UDim2.new(-0.080, 0, 0.42, 0)	
+		Face.Size = UDim2.new(0.1, 0, 0.1, 0)	
+		Face.Image = "rbxassetid://118531597792157"	
+	
+		UIAspectRatioConstraint.Parent = Face	
+	
+		UICorner.CornerRadius = UDim.new(1, 0)	
+		UICorner.Parent = Face	
+	
+		InfoBoxBorder.Name = "InfoBoxBorder"	
+		InfoBoxBorder.Parent = LOGO	
+		InfoBoxBorder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)	
+		InfoBoxBorder.BorderSizePixel = 0	
+		InfoBoxBorder.Position = UDim2.new(0.12, 0, 0.85, 0)	
+		InfoBoxBorder.Size = UDim2.new(0, 270, 0, 80)	
+		InfoBoxBorder.Visible = false	
+	
+		InfoBox.Name = "InfoBox"	
+		InfoBox.Parent = InfoBoxBorder	
+		InfoBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)	
+		InfoBox.BorderSizePixel = 0	
+		InfoBox.Position = UDim2.new(0, 2, 0, 2)	
+		InfoBox.Size = UDim2.new(1, -4, 1, -4)	
+		InfoBox.Visible = true	
+		InfoBox.Text = "Project Hack by wrick & verified\nRun scripts live without filthy modules or converting!\nUse the external program to execute scripts.\nStatus: Injected"	
+		InfoBox.TextColor3 = Color3.fromRGB(0, 0, 0)	
+		InfoBox.TextWrapped = true	
+		InfoBox.TextXAlignment = Enum.TextXAlignment.Center	
+		InfoBox.TextYAlignment = Enum.TextYAlignment.Center	
+		InfoBox.Font = Enum.Font.SourceSansBold	
+		InfoBox.TextSize = 14	
+	
+		local function AnimateLogo()	
+			local logo = Face	
+			local box = InfoBoxBorder	
+	
+			logo:TweenPosition(UDim2.new(0.465, 0, 0.440, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 1)	
+			wait(1)	
+			logo:TweenPosition(UDim2.new(0.02, 0, 0.85, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 1)	
+	
+			logo.MouseButton1Click:Connect(function()	
+				box.Visible = not box.Visible	
+			end)	
+		end	
+		coroutine.wrap(AnimateLogo)()	
+	
+		local function PreventReset()	
+			LOGO.ResetOnSpawn = false	
+		end	
+		coroutine.wrap(PreventReset)()	
+	end)	
+end;
+task.spawn(C_14);
+
+return LMG2L["ScreenGui_1"], require;
